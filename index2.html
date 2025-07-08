@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>My Portfolio</title>
 </head>
 <body>
@@ -11,7 +10,7 @@
         <h1>My Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#beginning">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#resume">Resume</a></li>
@@ -19,38 +18,48 @@
             </ul>
         </nav>
     </header>
-
-    <section id="home">
-        <h2>Welcome to My Portfolio</h2>
-        <p>This is a simple portfolio website built with HTML5.</p>
-        <video width="480" controls>
-            <source src="sample-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
+<br>
+<!-- This section is the beginning of the portfolio -->
+    <section id="beginning">
+        <fieldset>
+        <legend><h2>Welcome to My Portfolio</h2></legend>
+        <p>This is a simple portfolio built with HTML</p>
+        <video width="450" controls>
+            <source src="test.mp4" type="video/mp4">
         </video>
+        </fieldset>
     </section>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>young passionate smart future Developer</p>
+<br><br>
+<!-- This section is about me -->
+    <section id="about me">
+        <fieldset>
+        <legend><h2>About Me</h2></legend>
+        <p>young passionate smart future Developer capable of using:</p>
         <ul>
             <li>HTML, CSS, JavaScript</li>
             <li>python</li>
         
         </ul>
+        </fieldset>
     </section>
-
+<br><br>
+<!-- This section is about my work -->
     <section id="work">
-        <h2>My Work</h2>
+        <fieldset>
+        <legend><h2>My Work</h2></legend>
         <p>Here are some of the projects I've worked on:</p>
         <ul>
-            <li>Portfolio Website</li>
-            <li>restaurant</li>
+            <li>Portfolio Webpage</li>
+            <li>restaurant webpage</li>
             <li>quiz</li>
         </ul>
+        </fieldset>
     </section>
-
+<br><br>
+<!-- This section is my resume -->
     <section id="resume">
-        <h2>Resume</h2>
+        <fieldset>
+        <legend><h2>Resume</h2></legend>
         <p>Here's a quick summary of my qualifications:</p>
         <table>
             <tr>
@@ -66,26 +75,31 @@
                 <td>student in highschool</td>
             </tr>
         </table>
+        </fieldset>
     </section>
-
+<br><br>
+<!-- This section is for contact information -->
     <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="#" method="POST">
-            Name:<br/>
-            <input type="text" id="name" name="name" required /><br/><br/>
+        <fieldset>
+        <legend><h2>Contact Me</h2></legend>
+       <form action="#" method="POST">
+            <label for="name">Name:</label><br/>
+            <input type="text" id="name" name="name" /><br/><br/>
 
-            Email:<br/>
-            <input type="email" id="email" name="email" required /><br/><br/>
+            <label for="email">Email:</label><br/>
+            <input type="email" id="email" name="email"/><br/><br/>
 
-            Message:<br/>
-            <textarea id="message" name="message" rows="5" required></textarea><br/><br/>
+            <label for="message">Message:</label><br/>
+            <textarea id="message" name="message" rows="5"></textarea><br/><br/>
 
             <button type="submit">Send</button>
         </form>
+    </fieldset>
     </section>
-
+<br><br>
+<!-- This section is for the footer -->
     <footer>
-        <p> 2025 My Portfolio. All rights reserved.</p>
+        <p>My Portfolio as of 2025</p>
     </footer>
 
 </body>
