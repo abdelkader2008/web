@@ -1,0 +1,54 @@
+.fieldset {
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+    background-color:#ADD8E6; 
+}
+
+.legend {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: blue;
+    padding: 0 8px;
+}
+
+.para {
+    font-size: 1.05em;
+    color: #ffe5b4 ;
+    font-family:'Times New Roman', Times, serif ;
+    margin-bottom: 12px;
+}
+
+.ul {
+    color: gray;
+    padding-left: 20px;
+    margin-bottom: 12px;
+}
+
+.th {
+    background: #007bff;
+    color: #fff;
+    padding: 8px;
+    text-align: left;
+}
+.td{
+    color: gray;
+    padding: 8px;
+    text-align: left;
+}
+
+.label {
+    color: #ffe5b4 ;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 4px;
+}
+#titre {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #023265;
+    font-size: 2em;
+    margin-top: 20px;
+}
